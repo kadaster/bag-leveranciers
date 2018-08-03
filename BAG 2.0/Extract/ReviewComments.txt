@@ -1,0 +1,66 @@
+﻿20180726-2 lvbag-extract-stand-7obj-en-7kio
+=======================================================================================
+Algemeen:
+	? gml 3.2.1 ??? Waarom niet dezelfde als de StUF kant
+	> Alle Imvertor gegenereerde code eruit slopen, geen toegevoegde waarde.
+
+BagvsExtractDeelbestandExtractLvc-2.0:
+	Geen opmerkingen
+
+BagvsExtractSelecties-2.0:
+	? APD-Extract: wordt dat ergens gebruikt?
+	> LVC-Extract: alleen gegVarLevenscyclus, dus is, samen met gegVarLevenscyclusVanaf, niet meer nodig ==> choice verwijderd
+	? Ik snap de toegevoegde waarde van GebiedIdentificatie en GebiedNaam binnen Gebied-NLD en Gebied-GEM niet.
+	? Voor een gemeente extract is het handig te weten bij welke gemeente een BAG Object hoort. Aangezien we extracten maken per gemeente is het niet nodig hier meerder gemeenten in te zetten, eentje is voldoende. Anders wordt het iets als wat is er besteld en dan kan nooit de bedoeling zijn. Alles wat met een bestelling te maken heeft, hoort niet in extract thuis. Zie ook leverfrequentie en productcode
+	> Leverfrequentie verwijderd
+	> SchemaInfo, Schemanaam en Schemaversie verwijderd
+	? productcode lijkt me hier niet op zijn plaats
+	? Documentatie bij TijdstipVerwerking geeft aan dat dit een tijdstip is waarop een gegeven in de LV is verwerkt. Een extract bestaat uit veel BAGObjecten met ieder een eigen tijdstip verwerking. In die zin heeft dit veld geen waarde.
+	? VolgnrVerwerking: Wat is hier de toegevoegde waarde van?
+
+standlevering-generiek-1.0:
+	? Omdat het element stand unbounded is en de rest niet, krijg je in een extract dus "oneindig" veel stand elementen met daarin 1 BagObject die in principe van ieder willekeurig type kan zijn. Het is dus mogelijk om naast een Woonplaats ook een KenmerkOpenbareruimteInOnderzoek te plaatsen. Dit lijkt me niet wenselijk.
+	Een levenscyclus extract GEMEENTE bestaat nu uit, per gemeente, alle woonplaatsen bij elkaar, alle Openbareruimtes bij elkaar etc. Dit lijkt me nog steeds prettiger voor de afnemer.
+
+IMBAGLV_Objecten_v2_0_0:
+	> imvertor verwijderd
+	> NEN3610 Objecten verplaatst naar IMBAGLV_Nen3610_v1_0_0 ==> namespace, import toegevoegd, namespace NEN3610 Objecten gewijzigd naar nen3610
+	> documentnummer van het type DatatypenAlgemeen:MES1 ==> Objecten:Documentnummer
+	> simpleType Documentnummer toegevoegd: MES1 + maxLength=40 + pattern \S.*
+	> complexType OpenbareRuimte documentnummer simpleType vervangen door type="DatatypenAlgemeen:Documentnummer"
+	> Verblijfsobject.oppervlakte pattern "Alle natuurlijke getallen van 1 tot en met 999999" ==> <xs:minInclusive value="1"/><xs:maxInclusive value="999999"/>
+	> Woonplaats.naam type aangepast DatatypenAlgemeen:MES1 ==>	<xs:simpleType><xs:restriction base="DatatypenAlgemeen:MES1"><xs:maxLength value="80"/><xs:pattern value="\S.*"/></xs:restriction></xs:simpleType>
+	> OpenbareRuimte.naam type aangepast DatatypenAlgemeen:MES1 ==>	<xs:simpleType><xs:restriction base="DatatypenAlgemeen:MES1"><xs:maxLength value="80"/><xs:pattern value="\S.*"/></xs:restriction></xs:simpleType>
+	> ref="gml:Surface" ==> ref="gml:surfaceProperty" (in PuntOfVlak en VlakOfMultivlak)
+	? Bij Pand, Ligplaats en Standplaats is de geometry gelijk van het type SurfacePropertyType, dit is inconsistent met de overige geometrieën. type Vlak toevoegen?
+	
+IMBAGLV_DatatypenAlgemeen_v2_0_0:
+	> Imvertor verwijderd
+	> NEN3610 Objecten verplaatst naar IMBAGLV_Nen3610_v1_0_0.xsd
+	> MES1 pattern aangepast ==> [...]*
+	> Indicatie pattern toegevoegd enumerations J & N
+
+IMBAGLV_ObjectenRef_v2_0_0:
+	> Imvertor verwijderd
+	> version gewijzigd 2.0.0_ ==> 2.0.0
+
+IMBAGLV_Historie_v2_0_0:
+	> Imvertor verwijderd
+
+IMBAGLV_Nen5825_v2_0_0:
+	> Imvertor verwijderd
+	> simpleType VerkorteNaamOpenbareRuimte.verkorteNaam aangepast ==>	<xs:simpleType><xs:restriction base="DatatypenAlgemeen:MES1"><xs:maxLength value="24"/><xs:pattern value="\S.*"/></xs:restriction></xs:simpleType>
+
+IMBAGLV_KenmerkInOnderzoek_v2_0_0:
+	> Imvertor verwijderd
+	> documentnummer ==> DatatypenAlgemeen:Documentnummer
+	> de choice bij HistorieInOnderzoek verwijderd
+
+IMBAGLV_Nen3610_v1_0_0 (!!NIEUW!!):
+	> Alle NEN3610 Objecten uit IMBAGLV_DatatypenAlgemeen_v2_0_0
+	> LIG Lokaal ID [02] ==> 02
+	> NUM Lokaal ID [20] ==> 20
+	> OPR Lokaal ID [10] ==> 30
+	> PND Lokaal ID [30] ==> 10
+	> STA Lokaal ID [03] ==> 03
+	> VBO Lokaal ID [01] ==> 01
