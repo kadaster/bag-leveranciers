@@ -1,3 +1,9 @@
+**Releasenotes 14-09-2018**
+
+Pand scenario's 4.3 en 4.5 geïmplementeerd
+Inactief maken scenario 5.2 geïmplementeerd
+Aanpassing scenario 3.5
+
 **Releasenotes 15-08-2018**
 
 Nieuwe SOAPberichten toegevoegd
