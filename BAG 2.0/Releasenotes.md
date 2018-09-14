@@ -1,4 +1,7 @@
+
+  
 **Releasenotes 14-09-2018**
+---
 
 Pand scenario's 4.3 en 4.5 geïmplementeerd
 
@@ -6,8 +9,8 @@ Inactief maken scenario 5.2 geïmplementeerd
 
 Aanpassing scenario 3.5
 
-
 **Releasenotes 15-08-2018**
+---
 
 Nieuwe SOAPberichten toegevoegd
 
@@ -29,12 +32,13 @@ Swagger via basic authentication. Extra endpoint beschikbaar
 Referentieset aangepast (Typfout in scenario 1.3) 
 
 
-**Releasenotes 01-08-2018**
 
+**Releasenotes 01-08-2018**
+---
 
 Woonplaatsscenario's 3.8 t/m 3.13 geïmplementeerd in de conformiteitstoets. 
 
-Inclusief:
+*Inclusief*
 
 Berichtverwerking inclusief validaties
 
