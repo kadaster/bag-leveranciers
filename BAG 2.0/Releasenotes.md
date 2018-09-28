@@ -1,8 +1,13 @@
+**Releasenotes 28-09-2018**
+---
+In onderzoek scenario's 4.1 en 4.2 geïmplementeerd
 
-  
+**Releasenotes 19-9-2018**
+---
+Nieuwe xsd's opgeleverd (Koppelvlak en BAG extract)
+
 **Releasenotes 14-09-2018**
 ---
-
 Pand scenario's 4.3 en 4.5 geïmplementeerd
 
 Inactief maken scenario 5.2 geïmplementeerd
