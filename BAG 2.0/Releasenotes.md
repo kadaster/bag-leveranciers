@@ -1,3 +1,7 @@
+**Releasenotes 10-10-2018**
+---
+Afhandeling foutberichten in lijn gebracht met wsdl's
+
 **Releasenotes 28-09-2018**
 ---
 In onderzoek scenario's 4.1 en 4.2 geïmplementeerd
