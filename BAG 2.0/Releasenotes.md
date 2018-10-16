@@ -1,3 +1,13 @@
+**Releasenotes 16-10-2018**
+--
+Het BAG Extract is op de volgende punt aangepast:
+Typefout aangepast (winkelfuntie)
+
+Gebruiksdoelen waren samengevoegd. Deze zijn nu correct opgenomen 
+
+Newlines en tabs zijn verwijderd 
+
+
 **Releasenotes 10-10-2018**
 ---
 Afhandeling foutberichten in lijn gebracht met wsdl's
