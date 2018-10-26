@@ -1,3 +1,17 @@
+**Releasenotes 25-10-2018**
+--
+
+Synchronisatie pand geïmplementeerd
+
+ADO + NUM geïmplementeerd (samengestelde berichten)
+
+Met uitzondering van scenario’s 4.2, 4.4 en 5.1 kunnen alle scenario’s worden doorlopen
+
+Enkele verbeteringen in de referentieset
+
+In de XSD’s en het voorbeeld Extract is ten onrechte opgevoerd gewijzigd in verblijfsobject ten onrechte opgevoerd en pand ten onrechte opgevoerd.
+
+
 **Releasenotes 16-10-2018**
 --
 Het BAG Extract is op de volgende punt aangepast:
