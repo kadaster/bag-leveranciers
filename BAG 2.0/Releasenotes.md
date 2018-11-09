@@ -1,3 +1,8 @@
+**Releasenotes 09-11-2018**
+--
+Software gereed om alle soorten berichten te verwerken
+
+
 **Releasenotes 25-10-2018**
 --
 
