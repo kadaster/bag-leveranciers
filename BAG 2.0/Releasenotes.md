@@ -1,3 +1,7 @@
+**Releasenotes 29-11-2018**
+--
+De conformiteitstoets is af. Het zou mogelijk moeten zijn de volledige toets succesvol te doorlopen. 
+
 **Releasenotes 09-11-2018**
 --
 Software gereed om alle soorten berichten te verwerken
