@@ -1,6 +1,6 @@
 **Bekende issues**
 
-Er zijn geen openstaande bekende issues. 
+In de conformiteitstoets zijn sommige woonplaats- en openbare scenario's niet volledig geïmplementeerd. De gerelateerde objecten (panden, verblijfsobjecten etc.) ontbreken. We verwachten dit maandag 3 december opgelost te hebben.   
 
 **Opgeloste issues** 
 
