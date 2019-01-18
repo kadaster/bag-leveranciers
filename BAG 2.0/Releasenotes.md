@@ -1,3 +1,41 @@
+**Releasenotes 18-01-2019**
+--
+*Conformiteitstoets*
+
+Zes leveranciers hebben de conformiteitstoets succesvol doorlopen.  
+
+*BAG Extract*
+
+We hebben alle bekende problemen met de BAG extracten opgelost. We sturen vandaag nog per e-mail de verbeterde extracten van alle bij ons bekende pilotgemeenten toe. We zijn geen onvolkomenheden in de xsd’s tegengekomen. Er volgt dus geen wijziging van de xsd’s. 
+
+*Inrichting BAG 2.0 database ten behoeve van de pilot*
+
+We hebben de conversie van de BAG 1.0 naar de BAG 2.0 database afgerond. De BAG 2.0 database bevat is een kopie van de BAG productiedatabase van 19 december 2018. We gebruiken deze database om BAG 2.0 extracten te maken. Deze database is ook beschikbaar om mutaties op door te voeren. De autorisatie hiervoor is gelijk aan de autorisatie voor de ETO. Via onderstaande endpoints kunnen jullie mutaties doorvoeren op deze database. 
+
+*BAG Webservice*:
+
+https://service30.kadaster.nl/lvbag/test/bag-kgb/service/kennisgeving/v20171101/KennisgevingService 
+https://service30.kadaster.nl/lvbag/test/bag-kgb/service/synchronisatie/v20171101/SynchronisatieService 
+
+*In onderzoek*:
+
+https://service30.kadaster.nl/lvbag/test/bag-kgb/service/inonderzoek/v20171101/InOnderzoekService
+ 
+*Ping-service*
+
+Via onderstaande url is het mogelijk de verbinding met de ETO op basis van een certificaat te controleren. We hebben overigens gemerkt dat de ETO soms instabiel is. We zijn bezig met het oplossen van dit probleem. 
+https://service30.kadaster.nl/lvbag/eto/bag-kgb/service/system/heartbeat 
+
+*Mapping BAG 2018 gebeurtenissen naar de BAG berichtencatalogus* 
+
+Ik heb een voorstel met een aangepaste mapping gepost op het discussieforum: 
+https://discussie.kinggemeenten.nl/discussie/gemma/koppelvlak-bag/patch-op-stuf-bag-cq-bag-berichtencatalogus-voor-compatibiliteit-met#comment-6042
+Op het eerste gezicht lijken de problemen met de mapping opgelost te kunnen worden. We ontvangen graag jullie reacties. 
+
+*Validaties*
+
+Binnenkort zetten we een overzicht met de validaties die tot nu toe zijn geïmplementeerd op Github. 
+
 **Releasenotes 29-11-2018**
 --
 De conformiteitstoets is af. Het zou mogelijk moeten zijn de volledige toets succesvol te doorlopen. 
