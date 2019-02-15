@@ -1,3 +1,9 @@
+**Releasenotes 15-02-2019**
+--
+*Stabiliteit ETO omgeving*
+
+De stabiliteit van de ETO omgeving is verbeterd.
+
 **Releasenotes 18-01-2019**
 --
 *Conformiteitstoets*
