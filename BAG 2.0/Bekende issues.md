@@ -1,14 +1,9 @@
 **Bekende issues**
 
-In de conformiteitstoets zijn sommige woonplaats- en openbare scenario's niet volledig geïmplementeerd. De gerelateerde objecten (panden, verblijfsobjecten etc.) ontbreken. We verwachten dit maandag 3 december opgelost te hebben.   
+*Conversie/BAG 2.0 extract*
 
-**Opgeloste issues** 
+In vrijwel alle situaties wordt de onderzoektijdlijn goed opgebouwd. In specifieke, zeldzame situaties gaat dit echter niet goed. 
 
-Bij het afkeuren van een bericht stuurt de LV BAG een Fo02 bericht als response waar dit volgens de WSDL een SOAP-fault zou moeten zijn. 
+Als de inactieve (BAG 1.0) levenscyclus voorkomens bevat die onderzoek staan gaat het verkeerd als deze inactieve levenscyslus op begindatums afwijkt van de actieve levenscyclus. De onderzoektijdlijn wordt in dat geval namelijk opgebouwd op basis van de inactieve levenscyclus.  
 
-We hebben dit op 10 oktober 2018 hersteld. 
-
-
-
-
-
+De verwachting is dat we dit probleem in de loop van volgende week kunnen oplossen.
