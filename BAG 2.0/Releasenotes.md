@@ -1,3 +1,9 @@
+**Releasenotes 26-03-2019**
+--
+*Volledige set validaties beschikbaar*
+
+We hebben de volledige set validaties geïmplementeerd in de ETO en de Pilotomgeving. 
+
 **Releasenotes 15-02-2019**
 --
 *Stabiliteit ETO omgeving*
