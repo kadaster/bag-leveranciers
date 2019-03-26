@@ -6,4 +6,4 @@ In vrijwel alle situaties wordt de onderzoektijdlijn goed opgebouwd. In specifie
 
 Als de inactieve (BAG 1.0) levenscyclus voorkomens bevat die onderzoek staan gaat het verkeerd als deze inactieve levenscyslus op begindatums afwijkt van de actieve levenscyclus. De onderzoektijdlijn wordt in dat geval namelijk opgebouwd op basis van de inactieve levenscyclus.  
 
-De verwachting is dat we dit probleem in de loop van volgende week kunnen oplossen.
+**Het probleem is inmiddels opgelost**
