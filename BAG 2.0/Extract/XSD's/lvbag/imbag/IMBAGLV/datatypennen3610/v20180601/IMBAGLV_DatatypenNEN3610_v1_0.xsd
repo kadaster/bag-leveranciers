@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2018 sp1 (x64) (http://www.altova.com) by Kadaster (Kadaster) -->
+<xs:schema xmlns:DatatypenNEN3610="www.kadaster.nl/schemas/lvbag/imbag/datatypennen3610/v20180601" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="www.kadaster.nl/schemas/lvbag/imbag/datatypennen3610/v20180601" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0-1">
+<!-- 
+	Onderstaande type vormt de basis voor alle afgeleide NEN3610 ID's die verderop in dit schema staan.
+	 
+	<xs:element name="NEN3610ID" type="DatatypenNEN3610:NEN3610ID" abstract="false">
+		<xs:annotation>
+			<xs:documentation>identificatiegegevens voor de universeel unieke identificatie van een objectDe combinatie van 'namespace' van een registratie, lokale identificatie en versie informatie maken een object uniek identificeerbaar. Met de informatie van deze klasse kan daardoor met zekerheid worden verwezen naar het geïdentificeerde object.NEN 3610:2011 Namespace mag voor het domein BAG zijn:NL.IMBAG.WoonplaatsNL.IMBAG.OpenbareruimteNL.IMBAG.NummeraanduidingNL.IMBAG.LigplaatsNL.IMBAG.StandplaatsNL.IMBAG.VerblijfsobjectNL.IMBAG.Pand De identificatie van het object zoals beschreven in de BAG catalogus wordt opgenomen in de lokaalId. Bijvoorbeeld, de lokaalId van een woonplaats is 1234, of de identificatie van een pand is 1234100000000001.De namespace is een toevoeging op de identificatie, om de identificatie ook uniek te maken in een breder domein dan alleen de BAG. Het is niet toegestaan om de namespace en de lokaalId aan elkaar te plakken. Het zijn losse data elementen. NL.IMBAG.Woonplaats.1234 is niet een correcte BAG identificatie in NEN3610ID vorm. Namespace NL.IMBAG.Woonplaats en lokaalId 1234 is wel correct.NEN3610ID.versie wordt niet gebruikt. Dit is omdat het veld Voorkomen.identificatie al in gebruik is om een voorkomen van de BAG te identificeren.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="NEN3610ID" abstract="false">
+		<xs:sequence>
+			<xs:element name="namespace" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>unieke verwijzing naar een registratie van objecten. Het attribuut 'namespace' is een unieke verwijzing naar de registratie die de identificatie uitdeelt. Deze lijst van registraties wordt beheerd binnen de context van NEN 3610. Binnen Nederland zal deze namespace vrijwel altijd met 'NL.' beginnen.De volgende karakters mogen in een namespace aanduiding voorkomen: {"A...Z", "a...z", "0...9", "_", "-", ",", "."}NEN 3610:2011</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="\S.*"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="lokaalID" minOccurs="1" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>unieke identificatiecode binnen een registratie 'LokaalId' is de identificatiecode die een object heeft binnen een (lokale) registratie.De volgende karakters mogen in een lokaalID voorkomen: {"A...Z", "a...z", "0...9", "_", "-", ",", "."}.NEN 3610:2011</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="\S.*"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="versie" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>versie-aanduiding van een object. Het attribuut 'versie' maakt geen deel uit van de identificatie van het object maar kan worden gebruikt om verschillende versies van hetzelfde object te identificeren.NEN 3610:2011</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="\S.*"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+ -->
+	<xs:element name="NEN3610IDWpl" type="DatatypenNEN3610:NEN3610IDWpl" abstract="false">
+		<xs:annotation>
+			<xs:documentation>Zie NEN3610ID.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="NEN3610IDWpl" abstract="false">
+		<xs:sequence>
+			<xs:element name="namespace" type="xs:string" minOccurs="1" maxOccurs="1" fixed="NL.IMBAG.Woonplaats"/>
+			<xs:element name="lokaalID" minOccurs="1" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[0-9]{4}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="versie" minOccurs="0" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="\S.*"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="NEN3610IDOpr" type="DatatypenNEN3610:NEN3610IDOpr" abstract="false">
+		<xs:annotation>
+			<xs:documentation>Zie NEN3610ID.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="NEN3610IDOpr" abstract="false">
+		<xs:sequence>
+			<xs:element name="namespace" type="xs:string" minOccurs="1" maxOccurs="1" fixed="NL.IMBAG.Openbareruimte"/>
+			<xs:element name="lokaalID" minOccurs="1" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[0-9]{4}30[0-9]{10}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="versie" minOccurs="0" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="\S.*"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="NEN3610IDNum" type="DatatypenNEN3610:NEN3610IDNum" abstract="false">
+		<xs:annotation>
+			<xs:documentation>Zie NEN3610ID.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="NEN3610IDNum" abstract="false">
+		<xs:sequence>
+			<xs:element name="namespace" type="xs:string" minOccurs="1" maxOccurs="1" fixed="NL.IMBAG.Nummeraanduiding"/>
+			<xs:element name="lokaalID" minOccurs="1" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[0-9]{4}20[0-9]{10}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="versie" minOccurs="0" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="\S.*"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="NEN3610IDVbo" type="DatatypenNEN3610:NEN3610IDVbo" abstract="false">
+		<xs:annotation>
+			<xs:documentation>Zie NEN3610ID.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="NEN3610IDVbo" abstract="false">
+		<xs:sequence>
+			<xs:element name="namespace" type="xs:string" minOccurs="1" maxOccurs="1" fixed="NL.IMBAG.Verblijfsobject"/>
+			<xs:element name="lokaalID" minOccurs="1" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[0-9]{4}01[0-9]{10}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="versie" minOccurs="0" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="\S.*"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="NEN3610IDLig" type="DatatypenNEN3610:NEN3610IDLig" abstract="false">
+		<xs:annotation>
+			<xs:documentation>Zie NEN3610ID.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="NEN3610IDLig" abstract="false">
+		<xs:sequence>
+			<xs:element name="namespace" type="xs:string" minOccurs="1" maxOccurs="1" fixed="NL.IMBAG.Ligplaats"/>
+			<xs:element name="lokaalID" minOccurs="1" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[0-9]{4}02[0-9]{10}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="versie" minOccurs="0" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="\S.*"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="NEN3610IDSta" type="DatatypenNEN3610:NEN3610IDSta" abstract="false">
+		<xs:annotation>
+			<xs:documentation>Zie NEN3610ID.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="NEN3610IDSta" abstract="false">
+		<xs:sequence>
+			<xs:element name="namespace" type="xs:string" minOccurs="1" maxOccurs="1" fixed="NL.IMBAG.Standplaats"/>
+			<xs:element name="lokaalID" minOccurs="1" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[0-9]{4}03[0-9]{10}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="versie" minOccurs="0" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="\S.*"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="NEN3610IDPnd" type="DatatypenNEN3610:NEN3610IDPnd" abstract="false">
+		<xs:annotation>
+			<xs:documentation>Zie NEN3610ID.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="NEN3610IDPnd" abstract="false">
+		<xs:sequence>
+			<xs:element name="namespace" type="xs:string" minOccurs="1" maxOccurs="1" fixed="NL.IMBAG.Pand"/>
+			<xs:element name="lokaalID" minOccurs="1" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[0-9]{4}10[0-9]{10}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="versie" minOccurs="0" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="\S.*"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

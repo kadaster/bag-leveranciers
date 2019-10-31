@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:Objecten-ref="www.kadaster.nl/schemas/lvbag/imbag/objecten-ref/v20180601"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           targetNamespace="www.kadaster.nl/schemas/lvbag/imbag/objecten-ref/v20180601"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="2.0.0">
+   <xs:import namespace="http://www.w3.org/1999/xlink"
+              schemaLocation="../../../xlink/1.0.0/xlinks.xsd"/>
+   <xs:element name="WoonplaatsRef"
+               type="Objecten-ref:WoonplaatsRef"
+               abstract="false"/>
+   <xs:complexType name="WoonplaatsRef" abstract="false">
+      <xs:attribute name="type" type="xs:string" fixed="simple"/>
+      <xs:attribute ref="xlink:href" use="required"/>
+   </xs:complexType>
+   <xs:element name="OpenbareRuimteRef"
+               type="Objecten-ref:OpenbareRuimteRef"
+               abstract="false"/>
+   <xs:complexType name="OpenbareRuimteRef" abstract="false">
+      <xs:attribute name="type" type="xs:string" fixed="simple"/>
+      <xs:attribute ref="xlink:href" use="required"/>
+   </xs:complexType>
+   <xs:element name="NummeraanduidingRef"
+               type="Objecten-ref:NummeraanduidingRef"
+               abstract="false"/>
+   <xs:complexType name="NummeraanduidingRef" abstract="false">
+      <xs:attribute name="type" type="xs:string" fixed="simple"/>
+      <xs:attribute ref="xlink:href" use="required"/>
+   </xs:complexType>
+   <xs:element name="_AdresseerbaarObjectRef"
+               type="Objecten-ref:_AdresseerbaarObjectRef"
+               abstract="false"/>
+   <xs:complexType name="_AdresseerbaarObjectRef" abstract="false">
+      <xs:attribute name="type" type="xs:string" fixed="simple"/>
+      <xs:attribute ref="xlink:href" use="required"/>
+   </xs:complexType>
+   <xs:element name="VerblijfsobjectRef"
+               type="Objecten-ref:VerblijfsobjectRef"
+               abstract="false"/>
+   <xs:complexType name="VerblijfsobjectRef" abstract="false">
+      <xs:attribute name="type" type="xs:string" fixed="simple"/>
+      <xs:attribute ref="xlink:href" use="required"/>
+   </xs:complexType>
+   <xs:element name="LigplaatsRef"
+               type="Objecten-ref:LigplaatsRef"
+               abstract="false"/>
+   <xs:complexType name="LigplaatsRef" abstract="false">
+      <xs:attribute name="type" type="xs:string" fixed="simple"/>
+      <xs:attribute ref="xlink:href" use="required"/>
+   </xs:complexType>
+   <xs:element name="StandplaatsRef"
+               type="Objecten-ref:StandplaatsRef"
+               abstract="false"/>
+   <xs:complexType name="StandplaatsRef" abstract="false">
+      <xs:attribute name="type" type="xs:string" fixed="simple"/>
+      <xs:attribute ref="xlink:href" use="required"/>
+   </xs:complexType>
+   <xs:element name="PandRef" type="Objecten-ref:PandRef" abstract="false"/>
+   <xs:complexType name="PandRef" abstract="false">
+      <xs:attribute name="type" type="xs:string" fixed="simple"/>
+      <xs:attribute ref="xlink:href" use="required"/>
+   </xs:complexType>
+</xs:schema>
