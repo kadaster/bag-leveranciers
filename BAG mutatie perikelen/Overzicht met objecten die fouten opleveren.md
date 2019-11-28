@@ -4,6 +4,9 @@
 *18 op 19 november*  
 Bij de interne afnemers loopt de verwerking van de dagmutatiebestanden vast op de mutatielevering van 18 op 19 november. Het probleem is gevonden. Er wordt druk aan een oplossing gewerkt. Zodra het nieuwe bestand beschikbaar is, zal dit op deze pagina geplaatst worden. 
 
+*17 op 18 november*  
+Bij het object 0865100000021486 is een onjuiste mutatie opgenomen. In het mutatiebericht was de was situatie gelijk aan de wordt situatie. In het bestand, dat [hier]  te vinden is, is het aangepaste mutatiebestand te vinden.
+
 *15 op 16 november*  
 PAND 0532100000001172  
 STANDPLAATS 0160030000058283 
