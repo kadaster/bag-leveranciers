@@ -2,10 +2,24 @@
 #  Overzicht met objecten die fouten opleveren en nieuwe dagmutatiebestanden
 
 *20 op 21 november*  
-Een aantal BAG objecten zorgen voor fouten bij de verwerking van het bestand. Welke objecten dit betreft volgt nog.  
+Een aantal BAG objecten zorgen voor fouten bij de verwerking van het bestand. Net als de problemen met de dagmutaties van 18 op 19 november, had dit te maken met de aansluiting van één van de eerste gemeenten ooit die in 2009 op de BAG is aangesloten.  
   
 - De link naar de aangepaste mutatiebestand is hieronder te vinden  
-https://service10.kadaster.nl/gds2/download/public/5bf0dc5a-cac0-4b61-93f7-b22e9cdc5ce3 
+https://service10.kadaster.nl/gds2/download/public/5bf0dc5a-cac0-4b61-93f7-b22e9cdc5ce3   
+  
+Onderstaande objecten kunnen fouten veroorzaken in de verwerking:  
+
+0532010000008603  
+0532010000008889  
+0532010000008591  
+0532100000004015  
+0532100000001619  
+0532100000001398  
+0532100000000799  
+0532100000000253  
+0532100000001389  
+0532100000000639  
+0532100000001479
 
 *18 op 19 november*  
 Twaalf objecten hebben voor belemmeringen gezorgd bij het verwerken van mutatiebestand met de mutaties van 18 op 19 november. Dit had onder andere te maken met de aansluiting van één van de eerste gemeenten ooit die in 2009 op de BAG is aangesloten. Er waren een aantal zaken destijds nog niet goed ingeregeld waardoor er nu problemen zijn ontstaan. Dit is opgelost.  
@@ -13,18 +27,18 @@ Twaalf objecten hebben voor belemmeringen gezorgd bij het verwerken van mutatieb
 - Het nieuwe mutatiebestand is te downloaden via de link:  
 https://service10.kadaster.nl/gds2/download/public/49364370-8e6e-46bf-90fa-09388976d064 
   
-Onderstaande BAG ID's zorgen voor problemen:  
-0355010000796980
-0355010000814279
-0355010000819182
-0532010000007374
-0355010000770442
-0532010000007183
-0532010000000184
-0532010000002276
-0532010000005395
-0532010000005888
-0532010000007280
+Onderstaande BAG ID's kunnen voor problemen zorgen:  
+0355010000796980  
+0355010000814279  
+0355010000819182  
+0532010000007374  
+0355010000770442  
+0532010000007183  
+0532010000000184  
+0532010000002276  
+0532010000005395  
+0532010000005888  
+0532010000007280  
 0532010000007839
 
 *17 op 18 november*  
