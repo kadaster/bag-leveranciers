@@ -1,6 +1,9 @@
 
 #  Overzicht met objecten die fouten opleveren en nieuwe dagmutatiebestanden
 
+*25 op 26 november*  
+Bij de verwerking van de mutaties van 25 op 26 november zijn problemen ontdekt. Op dit moment wordt het onderzocht.
+
 *20 op 21 november*  
 Een aantal BAG objecten zorgen voor fouten bij de verwerking van het bestand. Net als de problemen met de dagmutaties van 18 op 19 november, had dit te maken met de aansluiting van één van de eerste gemeenten ooit die in 2009 op de BAG is aangesloten.  
   
@@ -66,3 +69,6 @@ PAND 0532100000000513
 Daarnaast zijn we tot de ontdekking gekomen, dat er bij een tweetal gemeenten een foutief BAG ID is aangemaakt. Zodra de BAG ID's de status ingetrokken hebben gekregen zullen deze uit de database verwijderd worden. 
 - Voorkomen 0114910000409205 heeft door de gemeente Emmen de status ten onrechte opgevoerd (in BAG 1.0 is dit ingetrokken) gekregen.
 - Voor voorkomen 0796910001023145 Bij de gemeente Den Bosch het verzoek neergelegd om het voorkomen in te trekken.
+
+*Objecten die mogelijk in de toekomst problemen gaan veroorzaken*  
+VBO 1859010000829825
