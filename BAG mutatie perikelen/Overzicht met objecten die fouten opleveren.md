@@ -56,7 +56,7 @@ Onderstaande BAG ID's kunnen voor problemen zorgen:
 __17 op 18 november__  
 Bij het object 0865100000021486 is een onjuiste mutatie opgenomen. In het mutatiebericht was de was situatie gelijk aan de wordt situatie. In het bestand, dat [hier](https://github.com/kadaster/bag-leveranciers/blob/master/BAG%20mutatie%20perikelen/DNLDLXAM02-648756-5056276-17112019-18112019.zip)  te vinden is, is het aangepaste mutatiebestand te vinden.
 
-__15 op 16 november__ 
+__15 op 16 november__  
 PAND 0532100000001172  
 STANDPLAATS 0160030000058283 
 - https://service10.kadaster.nl/gds2/download/public/6965f9a7-a9e6-4cb5-8004-065e1891860c (nieuw bestand)
