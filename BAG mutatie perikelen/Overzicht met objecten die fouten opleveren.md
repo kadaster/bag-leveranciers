@@ -2,7 +2,16 @@
 #  Overzicht met objecten die fouten opleveren en nieuwe dagmutatiebestanden
 
 *25 op 26 november*  
-Bij de verwerking van de mutaties van 25 op 26 november zijn problemen ontdekt. Op dit moment wordt het onderzocht.
+Bij de verwerking van de mutaties van 25 op 26 november zijn problemen ontdekt. Er zijn twee objecten die fouten hebben opgeleverd.  
+
+VBO 1859010000829825  
+Een mutatie van 18 oktober is opgedoken in de mutatielevering van 25 op 26 november. Na controle is deze aangepast en alsnog correct geleverd in een nieuw bestand.  
+
+ADO 0396010000039739  
+De levenscyclus van het object was onjuist opgebouwd na een synchronisatie. Dit object is aangepast in een nieuw bestand.  
+  
+- De link naar het aangepaste mutatiebestand is hieronder te vinden  
+https://service10.kadaster.nl/gds2/download/public/500d29e4-0396-4290-a4d8-d49082fb5c2c  
 
 *20 op 21 november*  
 Een aantal BAG objecten zorgen voor fouten bij de verwerking van het bestand. Net als de problemen met de dagmutaties van 18 op 19 november, had dit te maken met de aansluiting van één van de eerste gemeenten ooit die in 2009 op de BAG is aangesloten.  
