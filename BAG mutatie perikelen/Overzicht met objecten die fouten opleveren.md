@@ -1,8 +1,7 @@
 
 #  Overzicht met objecten die fouten opleveren en nieuwe dagmutatiebestanden
 
-<h2>25 op 26 november<h2>  
-  
+__25 op 26 november__   
 Bij de verwerking van de mutaties van 25 op 26 november zijn problemen ontdekt. Er zijn twee objecten die fouten hebben opgeleverd.  
 
 VBO 1859010000829825  
@@ -14,8 +13,7 @@ De levenscyclus van het object was onjuist opgebouwd na een synchronisatie. Dit 
 - De link naar het aangepaste mutatiebestand is hieronder te vinden  
 https://service10.kadaster.nl/gds2/download/public/500d29e4-0396-4290-a4d8-d49082fb5c2c  
 
-<h2>20 op 21 november<h2>  
-
+__20 op 21 november__  
 Een aantal BAG objecten zorgen voor fouten bij de verwerking van het bestand. Net als de problemen met de dagmutaties van 18 op 19 november, had dit te maken met de aansluiting van één van de eerste gemeenten ooit die in 2009 op de BAG is aangesloten.  
   
 - De link naar de aangepaste mutatiebestand is hieronder te vinden  
@@ -35,7 +33,7 @@ Onderstaande objecten kunnen fouten veroorzaken in de verwerking:
 0532100000000639  
 0532100000001479
 
-<h2>18 op 19 november<h2>  
+__18 op 19 november__  
 Twaalf objecten hebben voor belemmeringen gezorgd bij het verwerken van mutatiebestand met de mutaties van 18 op 19 november. Dit had onder andere te maken met de aansluiting van één van de eerste gemeenten ooit die in 2009 op de BAG is aangesloten. Er waren een aantal zaken destijds nog niet goed ingeregeld waardoor er nu problemen zijn ontstaan. Dit is opgelost.  
 
 - Het nieuwe mutatiebestand is te downloaden via de link:  
@@ -55,24 +53,24 @@ Onderstaande BAG ID's kunnen voor problemen zorgen:
 0532010000007280  
 0532010000007839
 
-<h2>17 op 18 november<h2>  
+__17 op 18 november__  
 Bij het object 0865100000021486 is een onjuiste mutatie opgenomen. In het mutatiebericht was de was situatie gelijk aan de wordt situatie. In het bestand, dat [hier](https://github.com/kadaster/bag-leveranciers/blob/master/BAG%20mutatie%20perikelen/DNLDLXAM02-648756-5056276-17112019-18112019.zip)  te vinden is, is het aangepaste mutatiebestand te vinden.
 
-<h2>15 op 16 november<h2>  
+__15 op 16 november__ 
 PAND 0532100000001172  
 STANDPLAATS 0160030000058283 
 - https://service10.kadaster.nl/gds2/download/public/6965f9a7-a9e6-4cb5-8004-065e1891860c (nieuw bestand)
 
-<h2>13 op 14 november<h2>  
+__13 op 14 november__  
 VBO 0307010000546793 
 - https://service10.kadaster.nl/gds2/download/public/2a41e93b-0ede-4c30-ad09-e8ee6e6a6d61 (nieuw bestand)
 
-<h2>11 op 12 november<h2>  
+__11 op 12 november__  
 PAND 0532100000000070  
 PAND 0532100000001731  
 - https://service10.kadaster.nl/gds2/download/public/29405a65-c8fb-41e5-a81f-7b8df442b956 (nieuw bestand)
 
-<h2>8 op 9 november<h2>  
+__8 op 9 november__  
 VBO 0532010000010526  
 PAND 0532100000000513
 - https://service10.kadaster.nl/gds2/download/public/4afb3e45-37df-4a8f-a074-2038ecd12a9d (nieuw bestand)
