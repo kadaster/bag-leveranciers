@@ -1,6 +1,9 @@
 
 #  Overzicht met objecten die fouten opleveren en nieuwe dagmutatiebestanden
 
+__19 op 20 december__  
+Een interne afnemer is vastgelopen op de levering van 20 december. Zodra deze problemen zijn opgelost, zullen de dagmutatiebestanden geleverd gaan worden.
+
 __25 op 26 november__   
 Bij de verwerking van de mutaties van 25 op 26 november zijn problemen ontdekt. Er zijn twee objecten die fouten hebben opgeleverd.  
 
