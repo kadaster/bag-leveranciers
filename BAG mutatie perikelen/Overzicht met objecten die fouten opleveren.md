@@ -1,6 +1,11 @@
 
 #  Overzicht met objecten die fouten opleveren en nieuwe dagmutatiebestanden
 
+__In onderzoek__  
+  
+  
+De transformatie van BAG 2.0 naar BAG 1.0 data zorgt met name bij 'in onderzoek' voor problemen. Door een aanpassing in de transformatie in oktober tot december zijn in onderzoek wijzigingen niet goed doorgegeven. Op dit moment onderzoeken we om hoeveel gevallen het gaat en hoe we het probleem op kunnen lossen. Gevolg is dat mogelijk het 'in onderzoek' onjuist in de BAG producten wordt geleverd. Alleen het uitleveren van de data gaat niet goed, in de LV BAG staan de gegevens wel goed. 
+
 __19 op 20 december__  
 Een interne afnemer is vastgelopen op de levering van 20 december. Zodra deze problemen zijn opgelost, zullen de dagmutatiebestanden geleverd gaan worden.
 
