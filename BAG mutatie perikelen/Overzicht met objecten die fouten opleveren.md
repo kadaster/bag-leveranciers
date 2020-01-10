@@ -1,13 +1,18 @@
 
 #  Overzicht met objecten die fouten opleveren en nieuwe dagmutatiebestanden
 
+__Verlate levering 8 en 9 januari__  
+Door een BAG Extract dat op dit moment wordt aangemaakt zijn de BAG mutatielevering iets verlaat. De verwacht is dat vandaag (10 januari) alles geleverd wordt. 
+
 __In onderzoek__  
   
   
-De transformatie van BAG 2.0 naar BAG 1.0 data zorgt met name bij 'in onderzoek' voor problemen. Door een aanpassing in de transformatie in oktober tot december zijn in onderzoek wijzigingen niet goed doorgegeven. Op dit moment onderzoeken we om hoeveel gevallen het gaat en hoe we het probleem op kunnen lossen. Gevolg is dat mogelijk het 'in onderzoek' onjuist in de BAG producten wordt geleverd. Alleen het uitleveren van de data gaat niet goed, in de LV BAG staan de gegevens wel goed. 
+De transformatie van BAG 2.0 naar BAG 1.0 data zorgt met name bij 'in onderzoek' voor problemen. Door een aanpassing in de transformatie in oktober tot december zijn in onderzoek wijzigingen niet goed doorgegeven. Op dit moment onderzoeken we om hoeveel gevallen het gaat en hoe we het probleem op kunnen lossen. Gevolg is dat mogelijk het 'in onderzoek' onjuist in de BAG producten wordt geleverd. Alleen het uitleveren van de data gaat niet goed, in de LV BAG staan de gegevens wel goed.  
+
+In de database zijn de problemen met in onderzoek opgelost. Alle voorkomens staan nu goed. De verwachting is dat u als afnemer geen problemen zult ervaren met het verwerken van de dagmutaties. Mocht u hier wel tegenaan lopen dan kunt u dit melden via BAG@kadaster.nl
 
 __19 op 20 december__  
-Een interne afnemer is vastgelopen op de levering van 20 december. Zodra deze problemen zijn opgelost, zullen de dagmutatiebestanden geleverd gaan worden.
+Een interne afnemer is vastgelopen op de levering van 20 december. De problemen met deze levering zijn opgelost voordat de levering naar alle afnemers is verzonden. De afnemers hebben een juiste levering ontvangen.
 
 __25 op 26 november__   
 Bij de verwerking van de mutaties van 25 op 26 november zijn problemen ontdekt. Er zijn twee objecten die fouten hebben opgeleverd.  
