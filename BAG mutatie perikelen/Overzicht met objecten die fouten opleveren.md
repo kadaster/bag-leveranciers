@@ -3,6 +3,7 @@
 
 __Verlate levering 8 en 9 januari__  
 Door een BAG Extract dat op dit moment wordt aangemaakt zijn de BAG mutatielevering iets verlaat. De verwacht is dat na het weekend (14 januari) alles geleverd wordt. 
+Op 13 januari zijn alle dagmutaties (en overige BAG producten) geleverd.
 
 __In onderzoek__  
   
