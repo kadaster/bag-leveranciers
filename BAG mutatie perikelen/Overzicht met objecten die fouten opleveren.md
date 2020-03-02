@@ -1,5 +1,9 @@
 
-#  Overzicht met objecten die fouten opleveren en nieuwe dagmutatiebestanden
+#  Overzicht met objecten die fouten opleveren en nieuwe dagmutatiebestanden  
+  
+    
+__27 op 28 februari__  
+Het pand ID 0579100000000166 heeft voor problemen gezorgd bij een interne afnemer. Door een mutatie in enkel het brondocumentnummer van het in onderzoek voorkomen in combinatie met een normale mutatie op het object is de verwerking vastgelopen. Voor de interne afnemer is dit hersteld door de laatste mutatie niet te leveren. Indien afnemers hier last van hebben, kan dezelfde mutatielevering verstuurd worden die de interne afnemer ook heeft verwerkt. De levering is op te vragen via BAG@kadaster.nl. ovv dagmutaties 27 op 28 februari.
 
 __Verlate levering 8 en 9 januari__  
 Door een BAG Extract dat op dit moment wordt aangemaakt zijn de BAG mutatielevering iets verlaat. De verwacht is dat na het weekend (14 januari) alles geleverd wordt. 
